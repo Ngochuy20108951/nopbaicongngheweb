@@ -1,0 +1,16 @@
+.box{
+    color:rgba(0, 139, 139, 0.76);
+    background-color:palegoldenrod;
+    text-align: center;
+
+}
+.first{
+    color:rgba(0, 139, 139, 0.76);
+    background-color:rgb(0, 225, 255);
+    text-align: center;
+
+
+}
+.submit{
+    text-align: center;
+}
