@@ -1,0 +1,101 @@
+.s1{
+    border-width: 10px;
+    border-style: solid;
+    border-top-color:  #85C226 ;
+    border-right-color: #F7C200;
+    border-bottom-color: #4493A0;
+    border-left-color: #DF127B;
+}
+.s2{
+    border-width: 10px;
+    border-top-style: solid;
+    border-right-style:dashed;
+    border-bottom-style:groove;
+    border-left-style: double;
+    border-top-color:  #85C226 ;
+    border-right-color: #F7C200;
+    border-bottom-color: #4493A0;
+    border-left-color: #DF127B;
+
+}
+.s3{
+    border-style: solid;
+    border-top-width: 5px;
+    border-right-width:10px;
+    border-bottom-width:15px;
+    border-left-width: 20px;
+    border-top-color:  #85C226 ;
+    border-right-color: #F7C200;
+    border-bottom-color: #4493A0;
+    border-left-color: #DF127B;
+
+}
+.s4{
+    border-width: 10px;
+    border-style: solid;
+    border-top-color:  #85C226 ;
+    border-right-color: #F7C200;
+    border-bottom-color: #4493A0;
+    border-left-color: #DF127B;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 20px;
+}
+.s5{
+    border-width: 4px 30px 4px 30px;
+    border-style: groove ridge dashed groove;
+    border-color: #6fe91e;
+    border-radius: 100px 100px 100px 0px 0px;
+    -moz-border-radius:100px 100px 0 0;
+    -webkit-border-radius:100px 100px 0 0;
+}
+.s6{
+    border-style: solid;
+    border-color: darkorange;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+.s7{
+    border-width: 0px 12px 0px 12px;
+    border-style: double;
+    border-color: violet;
+    border-radius: 40px 40px 60px 60px;
+    -moz-border-radius: 40px 40px 60px 60px;
+    -webkit-border-radius: 40px 40px 60px 60px;
+}
+.s8{
+    border-style:solid;
+    border-color: rgb(34, 117, 241);
+    border-radius: 20px 100px 100px 20px;
+    -moz-border-radius: 20px 100px 100px 20px;
+    -webkit-border-radius: 20px 100px 100px 20px;
+}
+.s9{
+    background: greenyellow;
+    border-width: 4px 30px 4px 30px ;
+    border-style:solid;
+    border-color: #08c430 #56c6d9 #fe2192 #fe2192;
+    border-radius: 0 120px 0 120px;
+    -moz-border-radius: 0 120px 0 120px;
+    -webkit-border-radius: 0 120px 0 120px;
+}
+.s10{
+    width: 200px;
+    padding: 8px;
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #ffffff;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius:10px;
+    -khtml-border-radius:10px;
+    text-align:center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-weight: 900;
+    font-size: 125%;
+
+
+}

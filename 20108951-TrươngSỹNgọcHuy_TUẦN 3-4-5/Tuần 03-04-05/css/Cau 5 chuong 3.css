@@ -1,0 +1,5 @@
+#example1{
+    background-image: url(../images/ok.jpg), url(../images/icon.png);
+    background-position:  right top,  left top;
+    background-repeat: no-repeat , no-repeat;
+}
