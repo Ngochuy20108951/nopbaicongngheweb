@@ -1,0 +1,28 @@
+*{
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+body{
+    width:500px;
+    border:1px solid black;
+    font-family: Arial;
+}
+input, label {
+    display: block;
+}
+h1, h3{
+    text-align:center;
+}
+h3{
+    padding:20px;
+}
+.form-row{
+    right: 80px;
+    padding: 5px;
+    display: flex;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.274);
+}
+.form-row input{
+    width: 300px;
+    margin-right: 10px;
+}

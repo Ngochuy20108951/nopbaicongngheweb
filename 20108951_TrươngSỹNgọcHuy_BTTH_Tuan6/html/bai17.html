@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/bai17.css">
+    <title>Đăng ký tài khoản</title>
+</head>
+
+<body>
+    <h1>Đăng ký tài khoản</h1>
+    <form name="contactForm" action="" onsubmit="validateForm()" method="post">
+
+        <div class="form-row">
+            <label for="username" style="margin-left: 38px">Tên đăng nhập:</label>
+            <input type="text" name="username" id="username" placeholder="Nhập vào tên đăng nhập" maxlength="100">
+            <span style="color:red">*</span>
+        </div>
+
+        <div class="form-row">
+            <label for="pass" style="margin-left: 78px" maxlength="50">Mật khẩu:</label>
+            <input type="text" name="pass" id="pass" placeholder="Nhập vào mật khẩu">
+            <span style="color:red">*</span>
+        </div>
+
+        <div class="form-row">
+            <label for="RPpass" style="margin-left: 15px" maxlength="50">Nhập lại mật khẩu:</label>
+            <input type="text" name="RPpass" id="RPpass" placeholder="Xác nhận lại mật khẩu">
+            <span style="color:red">*</span>
+        </div>
+
+        <h3>Thông tin cá nhân</h3>
+        <div class="form-row">
+            <label for="name" style="margin-left: 78px">Họ và tên:</label>
+            <input type="text" name="name" id="name" placeholder="Nhập họ và tên (bắt buộc)" maxlength="50">
+            <span style="color:red">*</span>
+        </div>
+
+        <div class="form-row">
+            <label for="date" style="margin-left: 83px">Ngày sinh:</label>
+            <input type="date" name="date" id="date" style="width: 130px; margin-right:190px;">
+        </div>
+
+        <div class="form-row">
+            <label for="" style="margin-left: 90px">Giới tính:</label>
+            <input type="radio" name="GT" id="Nam" style="width: 50px; margin-left: -170px; margin-top: 3px">
+            <label for="Nam" style="margin-left:-210px"></label>Nam</label>
+            <input type="radio" name="GT" id="Nu" style="width: 50px; margin-left: 5px; margin-top: 3px">
+            <label for="Nu" style="margin-left:-20px">Nữ</label>
+        </div>
+
+        <div class="form-row">
+            <label for="address" style="margin-left: 103px">Địa chỉ:</label>
+            <input type="text" name="address" id="address" placeholder="Nhập địa chỉ">
+        </div>
+
+        <div class="form-row">
+            <label for="Phone" style="margin-left: 80px">Điện thoại:</label>
+            <input type="tel" name="Phone" id="Phone" placeholder="Nhập vào số điện thoại (9-10 số)">
+        </div>
+
+        <div class="form-row">
+            <label for="Email" style="margin-left: 112px">Email:</label>
+            <input type="email" name="Email" id="Email" placeholder="Nhập địa chỉ email">
+        </div>
+
+        <div class="form-row">
+            <input type="submit" style="color:white; background-color: black; padding: 5px; border-radius: 5px; width: 100px;" value="Đăng ký">
+            <input type="reset" style="color:white; background-color: black; padding: 5px; border-radius: 5px; width: 100px; margin-right: 100px" value="Hủy">
+        </div>
+    </form>
+    <script src="../Javascrip/bai17.js"></script>
+</body>
+
+</html>

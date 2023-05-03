@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/bai18.css">
+    <title>Đăng ký facebook</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>facebook</h1>
+        <form action="" id="DangNhap">
+            <div>
+                <label for="FrameTK">Email hoặc số điện thoại</label><br>
+                <input type="text" id="FrameDN"><br>
+                <input type="checkbox" id="SaveDN" value="Duy trì đăng nhập">
+                <label for="SaveDN" style="color:rgb(143, 161, 189); ">Duy trì đăng nhập</label>
+            </div>
+            <div>
+                <label for="FrameMK">Mật khẩu</label><br>
+                <input type="text" id="FrameDN"><br>
+                <a href="#">Quên mật khẩu?</a>
+            </div>
+            <button id="Accept" type="submit">Đăng nhập</button>
+        </form>
+    </div>
+    <div class="aside">
+        <img src="../img/facebook.png">
+        <p>Cảm ơn bạn đã ghé thăm!</p>
+        <b>Chúng tôi mong sớm gặp lại bạn.</b>
+    </div>
+    <div class="section">
+        <h1>Đăng ký</h1>
+        <p>Miễn phí và sẽ luôn như vậy.</p><br>
+        <form class="DangKy" action="">
+            <input id="Ho" type="text" onblur="KTHo()" placeholder="Họ">
+            <span id="ErrorHo"></span>
+            <input id="Ten" type="text" onblur="KTTen()" placeholder="Tên">
+            <span id="ErrorTen"></span><br>
+            <input id="email" type="email" onblur="KTEmail()" placeholder="Email đăng nhập">
+            <span id="ErrorEmail"></span><br>
+            <input id="CheckMail" type="email" onblur="CMail()" placeholder="Nhập lại email">
+            <span id="ErrorKTmail"></span><br>
+            <input type="text" id="password" onblur="KTPass()" placeholder="Mật khẩu">
+            <span id="ErrorPass"></span><br>
+            <input type="text" id="Date" onblur="KTDate()" placeholder="Năm sinh">
+            <span id="ErrorDate"></span><br>
+            <button type="submit" onclick="CheckAll()">Đăng ký</button>
+        </form>
+    </div>
+    <script src="../Javascrip/bai18.js"></script>
+</body>
+
+</html>

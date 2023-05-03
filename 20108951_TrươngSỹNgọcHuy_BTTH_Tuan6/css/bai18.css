@@ -1,0 +1,106 @@
+*{
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+body{
+    width: 1000px;
+    height: 535px;
+    border: 1px solid black;
+    position: relative;
+}
+.header{
+    font-family:Tahoma;
+    background-color: rgb(58, 87, 149);
+    color: white;
+    position: relative;
+    height: 80px;
+}
+.header h1{
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+#DangNhap{
+    position: absolute;
+    right: 5px;
+    display: flex;
+}
+#DangNhap div{
+    padding: 10px 20px 10px 0px;
+}
+#Accept{
+    font-weight: bold;
+    color:white;
+    text-shadow: 1px 0px 1px rgb(233, 224, 224);
+    background-color: rgb(97,122,172);
+    border: 1px solid rgb(89, 132, 216);
+    box-shadow: 0px 0px 10px rgb(53, 49, 49);
+    margin-top: 30px;
+    height: 20px;
+}
+#DangNhap a{
+    color: rgb(143, 161, 189);
+    text-decoration: none;
+}
+.aside{
+    Left: 0px;
+    position: absolute;
+    width:28%;
+    background-color: rgb(229, 229, 249);
+    padding: 50px 50px 0px 0px;
+}
+.aside img{
+    width: 245px;    
+}
+.aside p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    text-align: center;
+    font-family: Tahoma;
+    color: rgb(70,130,180);
+}
+.aside b{
+    margin-left: 10px;
+    font-family: Tahoma;
+    font-size: 13px;
+}
+.section{
+    width: 72%;
+    background-color: rgb(229, 229, 249);
+    Right: 0px;
+    position: absolute;
+    padding: 50px 0px 23px 140px;
+}
+.section h1{
+    font-family: Tahoma;
+    margin-bottom: 20px;
+}
+.section p{
+    font-family: Tahoma;
+    font-weight: bold;
+}
+.section input{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 320px;
+}
+#Ho, #Ten {
+    width: 157px;
+}
+.DangKy{
+    margin-bottom: 10px;
+}
+.DangKy span{
+    color: red;
+}
+.section button{
+    color: white;
+    background-color:rgb(60, 179, 113);
+    width: 170px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
