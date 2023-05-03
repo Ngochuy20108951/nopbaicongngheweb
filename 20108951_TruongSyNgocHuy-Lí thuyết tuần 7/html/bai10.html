@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai10</title>
+</head>
+<body>
+    <script language="JavaScript">
+        var charNum = 0;
+        function KiemTra()
+        {
+        if (txtContent.value.length > 200)
+        alert("Bạn đã gõ qúa số ký tự cho phép !");
+        txtCharNum.value = txtContent.value.length;
+        }
+       </script>
+       <input type="text" name=" txtCharNum"> 
+       <textarea name=" txtContent " cols=50 rows="10" onKeyUp="KiemTra();"> </textarea>
+       
+</body>
+</html>

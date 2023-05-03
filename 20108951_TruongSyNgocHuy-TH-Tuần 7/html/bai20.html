@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm dữ liệu vào bảng</title>
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bai20.css">
+    <!--<link rel="stylesheet" href="../css/myStyle.css">-->
+    <script src="../Bootstrap/js/jquery-3.6.0.min.js"></script>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+    <!--<script src="../js/main.js"></script>-->
+    <script src="../Javascrip/bai20.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <div class="row" border-bottom m-2 p-2>
+                <label for="txtHoten" class="col-md-4 text-right">Họ Tên:</label>
+                <div class="col-md-8">
+                    <input type="text" id="txtHoten" class="form-control" required>
+                    <span id="errHoten" class="text-danger font-italic">*</span>
+                </div>
+
+            </div>
+            <div class="row" border-bottom m-2 p-2>
+                <label for="selLOP" class="col-md-4 text-right">LỚP HỌC</label>
+                <select id="selLOP" class="col-md-8">
+                    <option value="ĐHKHMT16A">ĐHKHMT16A</option>
+                    <option value="ĐHKHMT16B">ĐHKHMT16B</option>
+                    <option value="ĐHKHMT16ATT">ĐHKHMT16ATT</option>
+                    <option value="ĐHKTPM16A">ĐHKTPM16A</option>
+                    <option value="ĐHKTPM16ATT">ĐHKTPM16ATT</option>
+                </select>
+            </div>
+            <div class="row" border-bottom m-2 p-2>
+                <label for="selMH" class="col-md-4 text-right">MÔN HỌC</label>
+                <select id="selMH" class="col-md-8">
+                    <option value="CÔNG NGHỆ WEB">CÔNG NGHỆ WEB</option>
+                    <option value="CÔNG NGHỆ PHẦN MỀM">CÔNG NGHỆ PHẦN MỀM</option>
+                    <option value="LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG">LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG</option>
+                    <option value="HƯỚNG SỰ KIỆN">HƯỚNG SỰ KIỆN</option>
+                    <option value="QUẢN LÝ DỰ ÁN">QUẢN LÝ DỰ ÁN</option>
+                </select>
+            </div>
+            <div class="row" border-bottom m-2 p-2>
+                <label class="col-md-4 text-right">LOẠI:</label>
+                <div class="col-md-8">
+                    <input type="radio" id="rdoLT" name="rdoLOAI" checked>
+                    <label for="rdoLT">LÝ THUYẾT</label>
+                    <input type="radio" id="rdoTH" name="rdoLOAI" class="ml-3">
+                    <label for="rdoTH">THỰC HÀNH</label>
+                </div>
+            </div>
+            <div class="row justify-content-center p-2">
+                <button type="button" class="btn-btn-danger" onclick="dangky()">ĐĂNG KÝ</button>
+                <button type="reset" class="btn-btn-info ml-3">HUỶ</button>
+            </div>
+        </form>
+        <div class="row">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="text-center">STT</th>
+                        <th class="text-center">HỌ TÊN</th>
+                        <th class="text-center">MÔN HỌC</th>
+                        <th class="text-center">LỚP HỌC</th>
+                        <th class="text-center">LOẠI</th>
+                    </tr>
+                </thead>
+                <tbody id="tbl">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
