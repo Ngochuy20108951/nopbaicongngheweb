@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20108951_ Trương Sỹ Ngọc Huy</title>
+</head>
+
+    <style> 
+        *{
+            margin: 0px auto;
+            box-sizing: border-box;
+            padding: 0px;
+            margin-top: 10px;
+        }
+        body{
+            width: 980px;
+            height: 900px;
+
+        }
+        #header{
+            border-bottom: 5px  #fff dotted ;
+            position: absolute; 
+            background-color: #6fc9ec;
+            width: 980px;
+            height: 80px;
+            margin-top: 10px;
+        }
+        #menu{
+            width:980px;
+            height:30;
+
+        }
+        #menu ul>li{
+            list-style: none;
+            float:left;
+            padding-left: 20px;
+
+        }
+        #menu>ul>li> a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            height: 30px;
+            padding: 0px 15px 0px 15px;
+            
+        }
+        #menu>ul>li> a:hover{
+            background-color: cyan;
+            color: red;
+            transition: ease-in 0.35s;
+                -moz-transition: ease-in 0.35s;
+                -webkit-transition: ease-in 0.35s;
+        }
+        #s1{
+            color: #fff;
+            text-shadow: 2px 2px 2px blue, -2px -2px 2px blue;
+            margin-left: 800px;
+        }
+        #section{
+            width: 490px;
+            height: 520px;
+            background-color: #6fc9ec;
+            float:left;
+            margin-top: 33px;
+        }
+        #s2{
+            font-size: 25px;
+            color:#fff;
+            padding: 5px;
+            margin-left: 10px;
+        }
+        p{
+            margin-left: 10px;
+            color: #fff;
+
+        }
+        .from{
+            margin-left: 10px;
+            color: #fff;
+        }
+        #Fullname  {
+            border-radius: 5px 5px 5px 5px ;
+            border-color: rgb(44, 68, 202);
+        }
+        #s3  {
+            border-radius: 5px 5px 5px 5px ;
+            border-color: rgb(44, 68, 202);
+        }
+        #mailing  {
+            border-radius: 5px 5px 5px 5px ;
+            border-color: rgb(44, 68, 202);
+        }
+        #city  {
+            border-radius: 5px 5px 5px 5px ;
+            border-color: rgb(44, 68, 202);
+        }
+        #country  {
+            border-radius: 5px 5px 5px 5px ;
+            border-color: rgb(44, 68, 202);
+        }
+        #specific  {
+            border-radius: 5px 5px 5px 5px ;
+            border-color: rgb(44, 68, 202);
+        }
+        #s4{
+            border-radius: 5px 5px 5px 5px ;
+            border: 1px  rgb(44, 68, 202) dotted ;
+        }
+        #s5{
+            border-radius: 5px 5px 5px 5px ;
+            border: 1px  rgb(44, 68, 202) dotted ;
+        }
+        #aside{
+            float: right;
+            background-color: #6fc9ec;
+            width:490px;
+height: 600px;
+            
+        }
+        #aside img{
+            position:relative;
+            padding: 125px 50px 0px 50px;
+        }
+        #s6{
+            color: blue;
+            font-size: 40px;
+            text-shadow: -3px -3px 0px blue;
+            padding-left: 100px;
+        }
+        #s7{
+            color: blue;
+            padding-left: 110px;
+        }
+        #footer{
+            clear: both;
+            width: 980px;
+            height: 100px;
+            border-top: 5px #fff dotted ;
+            background-color: #6fc9ec;
+            display: block;
+
+        }
+        #footer a{
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+        <h1 id="s1">Sky World</h1>
+        <div id="section">
+            <h1 id="s2">Registration information</h1>
+            <p>Start your travel planning right now with our on-line tour registration form. Just tell us a little about yourself and group and one of our travel experts will contact you to create the perfect tour package custom built dor your group's needs</p>
+            <form class="from" action="" method="post">
+                <table >
+                    <tr>
+                        <td>Title</td>
+                        <td>
+                            <select id="s3" required>
+                                <option value="1">Mr.</option>
+                                <option value="1">Miss.</option>
+                                <option value="1">Mis.</option>
+                                <option value="1">Ms.</option>
+                            </select>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Fullname">Full name*:</label></td>
+                        <td><input type="text" name="Fullname" id="Fullname" placeholder="First Name" required> <br> </td>
+                    </tr>
+                    <tr>
+                        <td><label for="mailing">Mailing Address</label></td>
+                        <td><input type="text" id="mailing" placeholder="Mailing Address" required> <br></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="city">City</label></td>
+                        <td><input type="text" id="city" placeholder="City" required> <br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="country">Country</label></td>
+                        <td><input type="text" id="country" placeholder="Country" required> <br></td>
+            <tr>
+                <td>
+Specufic question or requests about your tour</td>
+        <td>
+        <textarea id="specific" rows="6" cols="35" required cellspacing="50px" placeholder="Specific questions or requests about your tour"></textarea></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <input id="s4" type="submit" value="submit">
+            <input id="s5" type="submit" value="Reset">
+        </td>
+    </tr>
+    </table>
+            </form>
+
+        </div>
+        
+
+    </div>
+    <div id="aside">
+        <img  src="../img/b1.jpg" alt="bau troi" width="500px" height="400px"  >
+        <h1 id="s6">You've arrived.</h1>
+        <h3 id="s7">Journeys as great as the destinations.</h3>
+
+    </div>
+    <div id="footer">
+        <blockquote><a  href="#"><h4><b>(c)2016 Sky World Tours. All right reserved.</b>
+            <br>
+            Contact information:<b> StudentName | Student ID |</b> Testingdate: 1<b>6 Sept 2016</b> </h4></a></blockquote>
+
+
+
+    </div>
+</body>
+</html>
+
