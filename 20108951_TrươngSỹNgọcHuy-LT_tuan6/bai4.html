@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script language="JavaScript">
+        var D = new Date();
+        var ns, nht, tuoi;
+        nht = D.getYear();
+        do {
+        var ns =prompt("Nhập năm sinh : ","");
+        var nht = prompt ("nhap nam hien tai:","2022");
+         
+        } while ( parseInt(ns)>nht || parseInt(ns)<0); 
+         // Các thông tin khác ...
+         var tuoi = nht-ns;
+
+        document.write(" tuoi hien tai cua ban la:",tuoi);
+        </script>
+            
+
+        
+        
+   
+
+    </script>
+    
+</body>
+</html>
